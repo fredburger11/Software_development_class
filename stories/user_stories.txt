@@ -4,6 +4,7 @@ Search:
     As a user I want to be able to narrow down my search within a specific price range.
     As a user I want to be able to narrow down my search within a specific time range/dates.
     As a user I want to be able to narrow down my search within a specific company.
+    As a user I want to limit my search to ones that allow young children.
     As a user I want to be able to narrow down my search based on flying class (Economy, First-Class, Business-class, e.t.c.)
     As a user I want to be able to rank my searches by: date, price, airline, seat availability and class.
 
@@ -11,6 +12,11 @@ Administration
     As a webmaster/admin I want to be able to manually alter data in the database in case of errors/bugs.
     As an API user/developer I want to be able to request more detailed information about
      the state of the system, check database integrity, read logs, e.t.c.
+
+Flight companies
+   As a company manager I want to be able to set up a promotion trough the site to increase sales.
+   As a company manager I want to be able to read and respond to reviews to increase customer satisfaction.
+   As a company administration I want to be able to know which reservations came trough this site to see effectivnes.
 
 Flight bookings:
     As a user I want to be able to book a flight, to and from my desired destination in one go.
