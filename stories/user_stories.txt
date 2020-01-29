@@ -8,6 +8,7 @@ Search:
     As a user I want to be able to rank my searches by: date, price, airline, seat availability and class.
 
 Administration
+	As a flight company I want to be able to push new flight schedules and alter details in case of a flight delay or other issues.
     As a webmaster/admin I want to be able to manually alter data in the database in case of errors/bugs.
     As an API user/developer I want to be able to request more detailed information about
      the state of the system, check database integrity, read logs, e.t.c.
