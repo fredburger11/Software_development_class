@@ -1,23 +1,33 @@
 Search:
-    As a user I want to be able to search for flights from airports in Iceland:
-	As a user I want to be able to search for national flights at the airport closest to me:
-    As a user I want to be able to narrow down my search within a specific price range:
-    As a user I want to be able to narrow down my search within a specific time range/dates:
-    As a user I want to be able to narrow down my search based on flying class (Economy, First-Class, Business-class, e.t.c.:
-    As a user I want to be able to rank my searches by: date, price, airline, seat availability and class:
+    As a user I want to be able to search for flights from airports in Iceland.
+    As a user I want to be able to search for national flights at the airport closest to me.
+    As a user I want to be able to narrow down my search within a specific price range.
+    As a user I want to be able to narrow down my search within a specific time range/dates.
+    As a user I want to be able to narrow down my search within a specific company.
+    As a user I want to be able to narrow down my search based on flying class (Economy, First-Class, Business-class, e.t.c.)
+    As a user I want to be able to rank my searches by: date, price, airline, seat availability and class.
 
+Administration
     As a webmaster/admin I want to be able to manually alter data in the database in case of errors/bugs.
     As an API user/developer I want to be able to request more detailed information about
-    the state of the system, check database integrity, read logs, e.t.c.
+     the state of the system, check database integrity, read logs, e.t.c.
 
 Flight bookings:
     As a user I want to be able to book a flight, to and from my desired destination in one go.
-    As a user I want to be able to choose from available seats, such that I can
-    arrange multiple persons to sit next to eachother.
-	As a user I want to be able to receive my ticket via e-mail.
-	As a user I want to be able to order a cab in advance for my arrival and/or return.
-	As a user I want to be able to save a flight I am interested in
-	 so I can come back to it later once I have gathered more information about my flight.
-	As a user I want to receive a text message and/or e-mail reminding me of my impending flight.
-	As a user I want to be able to pre-order food and beverages for my in-flight meals.
+    As a user I want to be able to book multiple seats at once
+    As a user I want to be able to choose from available seats and when possible
+     arrange multiple persons to sit next to eachother.
+    As a user I want to be able to receive my ticket via e-mail.
+    As a user I want to be able to order a cab in advance for my arrival and/or return.
+    As a user I want to be able to save a flight I am interested in
+     so I can come back to it later once I have gathered more information about my flight.
+    As a user I want to receive a text message and/or e-mail reminding me of my impending flight.
+    As a user I want to be able to pre-order food and beverages for my in-flight meals.
+    As a user I want to be able to cancel/change my booking after the fact.
+    As a user I want to book a connecting easily when it's needed select fom a list of suitable flights
+    
+
+Review:(?)
+    As a user I want to be able to review the company.
+    As an admin I want to be able to check these reviews and (accept them if they are suitable/Remove if inappropriate)
 	
