@@ -4,10 +4,9 @@ Search:
 	Business-class), Airline, such that I might find a trip that is suitable to my needs.
     As a user I want to be able to rank my searches by: date, price, airline, seat availability and class.
 	As a user I want to be well informed on what features/support are offered
-	by a fligt, i.e. wheelchair acessible, meal on flight e.t.c.
+	by a flight, i.e. wheelchair acessible, meal on flight, insurance e.t.c.
 
 Administration
-
     As a flight company I want to be able to push new flight schedules and alter details in case of a flight delay or other issues.
     As a webmaster/admin I want to be able to manually alter data in the database in case of errors/bugs.
     As an API user/developer I want to be able to request more detailed information about
