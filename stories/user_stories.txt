@@ -9,7 +9,7 @@ Search:
     As a user I want to be able to rank my searches by: date, price, airline, seat availability and class.
 
 Administration
-	As a flight company I want to be able to push new flight schedules and alter details in case of a flight delay or other issues.
+    As a flight company I want to be able to push new flight schedules and alter details in case of a flight delay or other issues.
     As a webmaster/admin I want to be able to manually alter data in the database in case of errors/bugs.
     As an API user/developer I want to be able to request more detailed information about
      the state of the system, check database integrity, read logs, e.t.c.
@@ -20,21 +20,22 @@ Flight companies
    As a company administration I want to be able to know which reservations came trough this site to see effectivnes.
 
 Flight bookings:
-    As a user I want to be able to book a flight, to and from my desired destination in one go.
-    As a user I want to be able to book multiple seats at once
+    As a user I want to be able to book a flight, to and from my desired destination in one go to make my travel as easy as possible.
+    ///As a user I want to be able to book multiple seats at once in case I am booking with my friend
     As a user I want to be able to choose from available seats and when possible
-     arrange multiple persons to sit next to eachother.
-    As a user I want to be able to receive my ticket via e-mail.
-    As a user I want to be able to order a cab in advance for my arrival and/or return.
+     arrange multiple persons to sit next to eachother so I can sit next to the people I am traveling with.
+    As a user I want to be able to receive my ticket via e-mail to have an easy access to all information about my impending flight.
+    As a user I want to be able to order a cab in advance for my arrival and/or return to make my trip to or from the airport as easy and safe as possible
     As a user I want to be able to save a flight I am interested in
      so I can come back to it later once I have gathered more information about my flight.
-    As a user I want to receive a text message and/or e-mail reminding me of my impending flight.
-    As a user I want to be able to pre-order food and beverages for my in-flight meals.
+    As a user I want to receive a text message and/or e-mail reminding me of my impending flight so I wont miss my flight or to know if there have been changes to the flight schedule.
+    As a user I want to be able to pre-order food and beverages for my in-flight meals so I can prepare my flight in advance.
     As a user I want to be able to cancel/change my booking after the fact.
     As a user I want to book a connecting easily when it's needed select fom a list of suitable flights
+    As a user I want to be able to see what the airports are offering as concerning families with young children, so I know how to prepare for my travel.
     
 
 Review:(?)
-    As a user I want to be able to review the company.
-    As an admin I want to be able to check these reviews and (accept them if they are suitable/Remove if inappropriate)
+    As a user I want to be able to review the company so that I can have my concerns addresed.
+    As an admin I want to be able to check these reviews and accept them if they are suitable/Remove if inappropriate so that their content stays suitable.
 	
