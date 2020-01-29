@@ -1,0 +1,33 @@
+Flight bookings
+	Times
+	seats
+	connecting flights (Selection between layovers)
+		Recomendations for alternative forms of travel.
+	Mulitple seats
+	Changing/cancel
+	Insurance
+
+searching
+	by brand/company/plane type(?)
+	Variable dates/exact
+	Show dates next to selected ones
+	Limit prices
+	Flight classes(Economic/Business)
+	What to sort results by?
+	Look for the nearest airport to a location
+	
+Further development
+	connectable (open API?)
+
+Reviewing flight for company or the company/airport for the site afterwards
+	Cheking reviews by moderator.
+
+Services for the flights (food ect.)
+
+Payments
+
+Database
+	Automatically filled trough the program.
+	Modifiable manually.
+	
+
