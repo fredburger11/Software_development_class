@@ -1,0 +1,119 @@
+\documentclass{fo}
+\title{Verklegt verkefni 1}
+\author{Hrafnkell Sigurðarson}
+\begin{document}
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
+\renewcommand{\thesection}{\arabic{section}}
+
+\center 
+
+\textsc{\LARGE Háskóli Íslands}\\[1.5cm] 
+\textsc{\Large Software Development}\\[0.5cm] 
+\textsc{\large Hópur 4F}\\[0.5cm] % Hópanúmer
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Assignment 1 - User Stories }\\[0.4cm] % Heiti skjals
+\HRule \\[1.5cm]
+ 
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Höfundar:}\\ %Nöfn á höfundum skýrslu.
+Hrafnkell Sigurðarson (hrs70),
+Arnar Dofri Jónasson (adj21@hi.is),
+Arttu Lakkala (aje6@hi.is),
+Kári Viðar Jónsson (kvj1@hi.is)
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Kennari:} \\
+Matthias Book % Nafn á ykkar hópkennara
+\end{flushright}
+\end{minipage}\\[2cm]
+
+{\large \today}\\[2cm] 
+\includegraphics{pallas.jpg}\\[1cm]
+\vfill 
+
+\end{titlepage}
+\renewcommand{\thesection}{\arabic{section}}
+
+\section{User stories}
+\begin{enumerate}[a.]
+	\item
+		
+		\textbf{Search:}
+		\begin{enumerate}[1.]
+			\item
+				As a user I want to be able to search for flights in Iceland based on airports close
+				to my location, price range, flight class (Economy, First-class,
+				Business-class), Airline, such that I might find a trip that is suitable to my needs.
+			\item
+				As a user I want to be able to rank my searches by: date, price, airline, seat availability and class.
+			\item
+				As a user I want to be well informed on what features/support are offered
+				by a flight, i.e. wheelchair acessible, meal on flight, insurance e.t.c.
+		\end{enumerate}
+	\item
+		\textbf{Administration:	}
+		\begin{enumerate}[1.]
+			\item
+				As a flight company I want to be able to push new flight schedules and alter details in case of a flight delay or other issues.
+			\item
+				As a webmaster/admin I want to be able to manually alter data in the database in case of errors/bugs.
+			\item
+				As an API user/developer I want to be able to request more detailed information about
+				the state of the system, check database integrity, read logs, e.t.c.
+		\end{enumerate}
+	\item
+		\textbf{Flight companies:}
+		\begin{enumerate}[1.]
+			\item
+				As a company manager I want to be able to set up a promotion trough the site to increase sales.
+			\item
+				As a company manager I want to be able to read and respond to reviews to increase customer satisfaction.
+			\item
+				As a company administration I want to be able to know which reservations came trough this site to see effectivnes.
+		\end{enumerate}
+	\item
+		\textbf{Flight bookings:}
+		\begin{enumerate}[1.]
+			\item
+				As a user I want to be able to book a flight, to and from my desired destination in one go to make my travel as easy as possible.
+			\item
+				As a user I want to be able to choose from available seats and when possible
+			\item
+				arrange multiple persons to sit next to eachother so I can sit next to the people I am traveling with.
+			\item
+				As a user I want to be able to receive my ticket via e-mail to have an easy access to all information about my impending flight.
+			\item
+				As a user I want to be able to order a cab in advance for my arrival and/or return to make my trip to or from the airport as easy and safe as possible
+			\item
+				As a user I want to be able to save a flight I am interested in
+				so I can come back to it later once I have gathered more information about my flight.
+			\item
+				As a user I want to receive a text message and/or e-mail reminding me of my impending flight so I wont miss my flight or to know if there have been changes to the flight schedule.
+			\item
+				As a user I want to be able to pre-order food and beverages for my in-flight meals so I can prepare my flight in advance.
+			\item
+				As a user I want to be able to cancel/change my booking after the fact.
+			\item
+				As a user I want to book a connecting easily when it's needed select fom a list of suitable flights
+			\item
+				As a user I want to be able to see what the airports are offering as concerning families with young children, so I know how to prepare for my travel.
+
+		\end{enumerate}
+	\item
+		\textbf{Review:?}
+		\begin{enumerate}[1.]
+			\item
+			As a user I want to be able to review the company so that I can have my concerns addresed.
+		\item
+			As an admin I want to be able to check these reviews and accept them if they are suitable/Remove if inappropriate so that their content stays suitable.
+			\end{enumerate}
+\end{enumerate}
+	
+\end{document}
