@@ -1,90 +1,97 @@
 package Software_development_class.source;
 
 public class Flight{
-  private Airport start;
-  private Airport end;
-  private int takeoff;
-  private int landing;
-  private int number;
-  private String type;
-  private Company company;
-  private String amenities;
+    private Airport start;
+    private Airport end;
+    private int takeoff;
+    private int landing;
+    private int number;
+    private String type;
+    private Company company;
+    private String amenities;
 
 
 
-  //setters and getters
-  //start
-  public void setStart(Airport flightStart) {
-    start = flightStart;
-  }
-  
-  public Airport getStart() {
-    return end;
-  }
-  //end
-  public void setEnd(Airport flightEnd) {
-    end = flightEnd;
-  }
-  
-  public Airport getEnd() {
-    return end;
-  }
-  //takeoff
-  public void setTakeOff(int flightTakeOff) {
-    takeoff = flightTakeOff;
-  }
+    // Setters and getters
+    // Start
+    public void setStart(Airport flightStart) {
+        start = flightStart;
+    }
 
-  public int getTakeOff() {
-    return takeoff;
-  }
-  //landing
-  public void setLanding(int flightLanding) {
-    landing = flightLanding;
-  }
+    public Airport getStart() {
+        return end;
+    }
 
-  public int getLanding() {
-    return landing;
-  }
-  //type
-  public void setType(String flightType) {
-    type = flightType;
-  }
+    // End
+    public void setEnd(Airport flightEnd) {
+        end = flightEnd;
+    }
 
-  public String getType() {
-    return type;
-  }
-  //number
-  public void setNumber(int flightNumber) {
-    number = flightNumber;
-  }
+    public Airport getEnd() {
+        return end;
+    }
 
-  public int getNumber() {
-    return number;
-  }
+    // Takeoff
+    public void setTakeOff(int flightTakeOff) {
+        takeoff = flightTakeOff;
+    }
 
-  //company
-  public void setCompany(Company flightCompany) {
-    company = flightCompany;
-  }
+    public int getTakeOff() {
+        return takeoff;
+    }
 
-  public Company getCompany() {
-    return company;
-  }
-  //amenities
-  public void setAmenities(String flightAmenities) {
-    amenities = flightAmenities;
-  }
+    // Landing
+    public void setLanding(int flightLanding) {
+        landing = flightLanding;
+    }
 
-  public String getFlightAmenities() {
-    return amenities;
-  }
-  /*
-  public void setFlightSeatReserve(boolean flightSeatReserve) {
-    this.flightSeatReserve = flightSeatReserve;
-  }
+    public int getLanding() {
+        return landing;
+    }
 
-  public boolean getFlightSeatReserve() {
-    return flightSeatReserve;
-  }
-  */
+    // Type
+    public void setType(String flightType) {
+        type = flightType;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    // Number
+    public void setNumber(int flightNumber) {
+        number = flightNumber;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    // Company
+    public void setCompany(Company flightCompany) {
+        company = flightCompany;
+    }
+
+    public Company getCompany() {
+        return company;
+    }
+
+    // Amenities
+    public void setAmenities(String flightAmenities) {
+        amenities = flightAmenities;
+    }
+
+    public String getFlightAmenities() {
+        return amenities;
+    }
+
+    /*
+       public void setFlightSeatReserve(boolean flightSeatReserve) {
+       this.flightSeatReserve = flightSeatReserve;
+       }
+
+       public boolean getFlightSeatReserve() {
+       return flightSeatReserve;
+       }
+       */
 }

@@ -1,26 +1,26 @@
 package Software_development_class.source;
 
 public class Company{
-  private String name;
-  private int id;
-  
-  //setters and getters
-  
-  //name
-  public void setName(String companyName) {
-    name = companyName;
-  }
+    private String name;
+    private int id;
 
-  public String getName() {
-    return name;
-  }
+    // Setters and getters
 
-  //id
-  public void setId(int companyID) {
-    id = companyID;
-  }
+    // Name
+    public void setName(String companyName) {
+        name = companyName;
+    }
 
-  public int getId() {
-    return id;
-  }
+    public String getName() {
+        return name;
+    }
+
+    // Id
+    public void setId(int companyID) {
+        id = companyID;
+    }
+
+    public int getId() {
+        return id;
+    }
 }

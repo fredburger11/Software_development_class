@@ -1,28 +1,28 @@
 package Software_development_class.source;
 
 public class Airport{
-  private String location;
-  private String accessability;
+    private String location;
+    private String accessability;
 
 
-  //setters and getters
-  
-  //location
-  public void setLocation(String airportLocation) {
-    location = airportLocation;
-  }
+    // Setters and getters
 
-  public String getLocation() {
-    return location;
-  }
+    // Location
+    public void setLocation(String airportLocation) {
+        location = airportLocation;
+    }
 
-  //accessability
-  public void setAccessability(String airPortAccessabilty) {
-    accessability = airPortAccessabilty;
-  }
+    public String getLocation() {
+        return location;
+    }
 
-  public String getAccessability() {
-    return accessability;
-  }
-  
+    // Accessability
+    public void setAccessability(String airPortAccessabilty) {
+        accessability = airPortAccessabilty;
+    }
+
+    public String getAccessability() {
+        return accessability;
+    }
+
 }
