@@ -1,0 +1,10 @@
+# Java build artifacts class files
+*.class
+
+# Other generated files
+bin/
+gen/
+build/
+
+# OSX files
+.DS_Store
