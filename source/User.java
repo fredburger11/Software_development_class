@@ -1,25 +1,26 @@
 package Software_development_class.source;
 
 public class User{
-  private String name;
-  private int id;
-  
-  //setters and Getters
-  
-  //name
-  public void setName(String userName) {
-    name = userName;
-  }
+    private String name;
+    private int id;
 
-  public String getName() {
-    return name;
-  }
-  //id
-   public void setId(int userID) {
-    id = userID;
-  }
+    // Setters and Getters
 
-  public int getId() {
-    return id;
-  }
+    // Name
+    public void setName(String userName) {
+        name = userName;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    // Id
+    public void setId(int userID) {
+        id = userID;
+    }
+
+    public int getId() {
+        return id;
+    }
 }
